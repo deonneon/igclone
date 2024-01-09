@@ -9,12 +9,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Initialize Firebase
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: "",
+  apiKey: process.env.VARIABLE_NAME,
+  authDomain: process.env.VARIABLE_NAME,
+  projectId: process.env.VARIABLE_NAME,
+  storageBucket: process.env.VARIABLE_NAME,
+  messagingSenderId: process.env.VARIABLE_NAME,
+  appId: process.env.VARIABLE_NAME,
 };
 
 const app = initializeApp(firebaseConfig);
